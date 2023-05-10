@@ -1,4 +1,4 @@
-import { createSlice, isRejectedWithValue } from "@reduxjs/toolkit";
+import { createSlice} from "@reduxjs/toolkit";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const USER_URL = 'https://jsonplaceholder.typicode.com/users/';

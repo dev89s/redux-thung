@@ -1,7 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { fetchUsers } from "../store/users/usersSlice";
 import { useEffect } from "react";
-import { isRejectedWithValue } from "@reduxjs/toolkit";
 
 function Users() {
   const { userList, isLoading, error } = useSelector((state) => state.usersState);
